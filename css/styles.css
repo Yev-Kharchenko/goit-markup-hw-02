@@ -1,0 +1,107 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* черный акцент #000000 */
+/* голубой акцент #2196F3 */
+/* белый #FFFFFF */
+/* прозрачность rgba(255, 255, 255, 0.6) */
+
+/* основной фон #E5E5E5 */
+/* вторичный фон #2F303A */
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-blue: #2196f3;
+  --accent-text-white: #ffffff;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+}
+.logo {
+  color: #000000;
+}
+.color-logo {
+  color: var(--accent-blue);
+}
+.logo,
+.color-logo,
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-blue);
+}
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-blue);
+}
+
+.nav-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+.nav-button:hover,
+.nav-button:focus {
+  background: var(--accent-blue);
+  color: var(--accent-text-white);
+}
+
+.projects {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.logo-footer {
+  color: var(--accent-text-white);
+}
+.location {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-white);
+}
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accent-blue);
+}
+footer {
+  background-color: #2f303a;
+}
