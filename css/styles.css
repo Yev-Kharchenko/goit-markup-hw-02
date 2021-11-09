@@ -40,7 +40,8 @@ body {
   color: var(--main-text-color);
 }
 .site-nav:hover,
-.site-nav:focus {
+.site-nav:focus,
+.site-nav.current {
   color: var(--accent-blue);
 }
 .contacts {
@@ -64,7 +65,8 @@ body {
   cursor: pointer;
 }
 .nav-button:hover,
-.nav-button:focus {
+.nav-button:focus,
+.nav-button.current {
   background: var(--accent-blue);
   color: var(--accent-text-white);
 }
