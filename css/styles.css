@@ -31,6 +31,9 @@ body {
 .link {
   text-decoration: none;
 }
+.visibility {
+  display: none;
+}
 
 .site-nav {
   font-weight: 500;
